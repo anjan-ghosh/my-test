@@ -1,0 +1,21 @@
+$git config --global user.name "anjan-ghosh"
+$git config --global user.name "anjan.ghosh@gmail.com" 
+$git status
+$mkdir code-base
+$git clone https://github.com/anjan-ghosh/my-test.git
+
+## make changes to the files ...
+
+$git commit -am "Updated readme file"
+$git push origin master
+
+##create a new file "Git command.txt"
+$git status
+$git rm "Git command.txt"
+
+
+
+#make change in readme.txt in githup and commit
+ls -l Readme.txt
+$git pull origin master
+ls -l Readme.txt
